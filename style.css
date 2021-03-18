@@ -1,0 +1,168 @@
+#title_area{
+    display: flex;
+    justify-content: center;
+}
+
+
+#title{
+    display: inline-block;
+}
+
+#mark{
+    display: inline-block;
+}
+
+
+
+h1{
+    margin: 10px auto 0;
+    height: 130px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+}    
+
+h3{
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+/* 共通フォント */
+#item, #data, #sum,
+h3, h2,
+input[type="submit"]
+{
+    font-family: "Noto Sans JP";
+}
+
+/* 入力画面 */
+
+#items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+#item{
+    display: flex;
+    justify-content: center;
+    border: solid #cde0de 8px;
+    border-radius: 10px;
+    width: 22%;
+    height: 110px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+    
+}
+
+#icon{
+    margin: 10px;
+}
+
+input[type="text"]{
+    width: 140px;
+}
+
+#btn{
+    text-align: center; 
+}
+
+input[type="submit"]{
+    width: 170px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(241, 222, 198);
+    font-size: 20px;
+    
+}
+
+/* カーソルが乗った */
+input[type="submit"]:hover{
+    border-radius: 15px; 
+    cursor: pointer;
+    background-color: rgb(241, 200, 146);
+    /* クリック時の枠線消す */
+    outline: none;
+}
+
+
+/* iconのカラー設定 */
+.fa-cutlery{
+    color: rgb(132, 191, 240);
+}
+
+.fa-home{
+    color:pink;
+}
+
+.fa-plug{
+    color: rgb(185, 177, 178);
+}
+
+.fa-tablet{
+    color: rgb(238, 131, 81);
+}
+
+.fa-medkit{
+    color: rgb(226, 78, 115);
+}
+
+.fa-shopping-cart{
+    color: rgb(205, 236, 202);
+}
+
+.fa-group{
+    color: plum;
+}
+
+.fa-database{
+    color:rgb(224, 199, 87);
+}
+/* ここまで入力画面 */
+
+
+
+/* 結果画面 */
+h2{
+    text-align: center;
+}
+
+#cost_amount,#sum{
+    border: solid #cde0de 8px;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#cost_amount{
+    border-radius: 10px 10px 0 0;
+}
+
+#data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 55px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+#icon_2{
+    width: 33px;
+}
+
+#sum{
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+
+
+/* ここまで結果画面 */
+
+
+    
